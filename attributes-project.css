@@ -47,3 +47,41 @@ ul {
 ul > li {
   list-style: none;
 }
+
+a > a:hover, span:hover{
+  color: purple;
+  font-weight: bold;
+}
+
+.page-container{
+  max-width: 1200px;
+}
+
+#leftbar, #center, #rightbar{
+  float: left;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+}
+
+footer{
+  clear: both;
+}
+
+#leftbar, #rightbar{
+  width: 25%;
+}
+
+#center{
+  width: 50%;
+  border: solid 1px #464646;
+  border-radius: 10px;
+}
+
+#center > div{
+  float: left;
+  width: 33%;
+}
+
+#topban h2{
+  text-align: center;
+}
